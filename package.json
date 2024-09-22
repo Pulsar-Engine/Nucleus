@@ -1,0 +1,23 @@
+{
+  "name": "nucleus",
+  "version": "1.0.0",
+  "description": "Control github actions from Discord",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pulsar-Engine/Nucleus.git"
+  },
+  "author": "Elty, Skunk",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Pulsar-Engine/Nucleus/issues"
+  },
+  "homepage": "https://github.com/Pulsar-Engine/Nucleus#readme",
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5"
+  }
+}
