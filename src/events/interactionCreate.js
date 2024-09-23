@@ -1,7 +1,7 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports = async (client, interaction) => {	
-    const message = "[Nucleus] " + interaction.member.user.username + " à utilisé la commande " + interaction.commandName;
+    let message = "[Nucleus] " + interaction.member.user.username + " à utilisé la commande " + interaction.commandName;
     if (!interaction.isCommand()) return;
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
